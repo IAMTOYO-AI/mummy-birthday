@@ -32,9 +32,9 @@ interface Letter {
 }
 
 // --- PERSONALIZATION SECTION ---
-// Change these to make the website perfect for Rhema!
+// Change these to make the website perfect for Mum!
 
-const RHEMA_NAME = "Rhema";
+const Mum_NAME = "Mum";
 // Near the top of App.tsx
 
 const REASONS = [
@@ -153,20 +153,20 @@ const LETTERS: Letter[] = [
   },
    {
     id: 3,
-    title: "My rhemaaaaa ❤️",
-    content: "Happy birthday my sweet girl. I wish I can give you the whole world because you deserve it. You are strong and I’m so proud of you so, so proud of you. Of how you show up and get the work done, you don’t make excuses, but you stay, and I’m so proud of you. I’m grateful for the friendship with you. I’m grateful that we are growing. I’m grateful and proud of the woman you are and the woman you are becoming. You have grown in wisdom and strength. I pray that in this new year you experience God more deeply and your heart for Him grows. You know the Lord, Rhema, very deeply. I pray this year you experience ease in all you do. All this suffering and stress they will pay off. It will count for something. All that God will have you do, you will do well. God hears you and God sees you. I’m super proud of you, my girl. I love you deeply ❤️",
+    title: "My Mumaaaa ❤️",
+    content: "Happy birthday my sweet girl. I wish I can give you the whole world because you deserve it. You are strong and I’m so proud of you so, so proud of you. Of how you show up and get the work done, you don’t make excuses, but you stay, and I’m so proud of you. I’m grateful for the friendship with you. I’m grateful that we are growing. I’m grateful and proud of the woman you are and the woman you are becoming. You have grown in wisdom and strength. I pray that in this new year you experience God more deeply and your heart for Him grows. You know the Lord, Mum, very deeply. I pray this year you experience ease in all you do. All this suffering and stress they will pay off. It will count for something. All that God will have you do, you will do well. God hears you and God sees you. I’m super proud of you, my girl. I love you deeply ❤️",
     signature: "Stephanie"
   },
    {
     id: 4,
-    title: "My Rhema",
-    content: "Happy Birthday Rhema. I love you so much. You are such a delight with an amazing soul. I love being your friend and I'm super grateful to have you in my life. I pray this year brings you peace, joy, and everything your heart has been hoping for. I love you always.",
+    title: "My Mum",
+    content: "Happy Birthday Mum. I love you so much. You are such a delight with an amazing soul. I love being your friend and I'm super grateful to have you in my life. I pray this year brings you peace, joy, and everything your heart has been hoping for. I love you always.",
     signature: "Otokini"
   },
    {
     id: 5,
     title: "My Bim Bim",
-    content: "Happy birthday Rhema, my sweet baby girl, to know you Bim Bim is to love you, I’m grateful for the friendship we have and for the chance to love you. I pray God grants your deepest desires. Have the best day my princess",
+    content: "Happy birthday Mum, my sweet baby girl, to know you Bim Bim is to love you, I’m grateful for the friendship we have and for the chance to love you. I pray God grants your deepest desires. Have the best day my princess",
     signature: "Dum Dum"
   },
    {
@@ -312,7 +312,7 @@ export default function App() {
             <Heart className="w-16 h-16 text-romantic-500 fill-romantic-300" />
           </motion.div>
           <h1 className="serif text-5xl md:text-8xl font-bold text-gray-900 mb-4 tracking-tight">
-            Happy Birthday, <span className="text-romantic-500 italic">{RHEMA_NAME}</span>
+            Happy Birthday, <span className="text-romantic-500 italic">{Mum_NAME}</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto font-light leading-relaxed">
             A heartfelt gift for my princess who makes every moment feel amazing. <br />
@@ -549,7 +549,7 @@ export default function App() {
               <MessageCircle className="w-8 h-8 text-romantic-500" />
             </div>
             <h2 className="serif text-3xl font-bold mb-2">Speak to my Heart</h2>
-            <p className="text-gray-600">A space for heartfelt replies, just for you, {RHEMA_NAME}.</p>
+            <p className="text-gray-600">A space for heartfelt replies, just for you, {Mum_NAME}.</p>
           </div>
 
           <div className="glass rounded-[32px] overflow-hidden flex flex-col h-[500px] shadow-2xl border border-white">
@@ -599,7 +599,7 @@ export default function App() {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-                  placeholder={`What's on your heart, ${RHEMA_NAME}?`}
+                  placeholder={`What's on your heart, ${Mum_NAME}?`}
                   className="flex-1 bg-white px-6 py-3 rounded-full border border-romantic-200 focus:outline-none focus:ring-2 focus:ring-romantic-400 transition-all text-gray-800 font-light"
                 />
                 <button
@@ -619,7 +619,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="py-12 bg-white text-center border-t border-romantic-100 relative z-10">
-        <p className="serif italic text-gray-400">Made with a heart full of love for my {RHEMA_NAME}.</p>
+        <p className="serif italic text-gray-400">Made with a heart full of love for my {Mum_NAME}.</p>
       </footer>
     </div>
   );
