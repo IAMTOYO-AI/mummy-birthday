@@ -315,8 +315,8 @@ export default function App() {
             Happy Birthday, <span className="text-romantic-500 italic">{Mum_NAME}</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto font-light leading-relaxed">
-            A heartfelt gift for my princess who makes every moment feel amazing. <br />
-            Here's to the beauty and happiness you bring to every moment.
+            A heartfelt gift for my amazing mum who has filled my life with love, strength, and endless care. <br />
+            Thank you for every sacrifice, every prayer, and every moment you’ve poured into making life beautiful for me.
           </p>
         </motion.div>
 
